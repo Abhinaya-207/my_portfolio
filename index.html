@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+    <meta name="viewport"  contents="width=device-width,initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/568a063c09.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href='#header'>Home</a></li>
+                <li><a href='#About'>About</a></li>
+                <li><a href='#services'>Services</a></li>
+                <li><a href='#portfolio'>portfolio</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX designer</p>
+            <h1>HI, I'M <span> ABHINAYA</span><br>FROM INDIA</h1>
+        </div>
+    </div>
+</div>
+<!-- -----about----  -->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/abhi.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About me</h1>
+                <p>I'M ABHINAYA<br>pursuing my graduation in JNTUA college of engineering pulivendula
+                in the domain of Electronics and Electrical engineering.Having interest in the webdevelopment
+                have done some courses regarding webdevelopment and now practicing it.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web/app Interface</li>
+                        <li><span>Web development</span><br>Designing web app development</li>
+                        <li><span>App development</span><br>Building Android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Graduation</span><br>JNTUA college of engineering, pulivenduka</li>
+                        <li><span>secondary education</span><br>Narayana junior college,Adoni</li>
+                        <li><span>High school</span><br>Narayana school,Adoni</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!----services------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>web development is the building and maintenance of websites.its the work that happens behind the scenes to make website look great.work fast and perform well with a seamless user experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-crop"></i>
+                <h2>UI/Ux Design</h2
+                <p>User interface design or usewr interface engineering is the design o user interface for machines and software such as coputers, home appliances , mobile devices, and other electronic devices with the focus on maximizing usability and the user experience. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>App design is a combination of UI and UX design to build out a usable piece of software.it is the task of designing mobile applications.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- ---portfolio--->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h1>Social Media App</h1>
+                    <p>The app connects you to the talented people around the world.It facilitates the sharing of ideas and information through virtual networks.From facebook and instagram etc covers a broad univers of apps and platforms that allows users to share content .Download it from the playstore
+                    </p>
+                    <a href="#" class="btn">see more</a>
+            </div>
+            <div>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h1>Music App</h1>
+                    <p>This app helps you to listen music.A mobile application that allows you to listen to music files stored in the phones internal and external memory.Download it from google playstore</p>
+                    <a href="#" class="btn">see more</a>
+            </div>
+            <div >
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h1>Online Shopping App</h1>
+                    <p>Mobile commerce describes purchasing from an online retailer's mobile devuce-optimized website or software-application.these app designed to enable customer to shop through tablets and smartphones.download it from playstore.
+                    </p>
+                    <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> abhi@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9876157351</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="IMAGES/my resume.pdf"  download class="btn btn2">Download cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="messaage" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
